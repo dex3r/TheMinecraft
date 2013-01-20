@@ -24,7 +24,7 @@ public class Faction
 	{
 		this.owner = owner;
 		lvl = 1;
-		maxMembers = 5;
+		maxMembers = 666;
 		members = new ArrayList<FactionMember>();
 		members.add(new FactionMember(owner, FactionMemberRank.Owner));
 	}
